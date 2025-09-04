@@ -1,0 +1,260 @@
+<!------Google style sheet website use for contact section-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c49a672eb0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">    <!--My name logo-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                          <li><a href="#portfolio">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Rohit Bari</span><br>   From India</h1>  <!--My name-->
+            </div>
+        </div>
+    </div>
+    <!-------about--------->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a passionate web designer with a love for creating beautiful and functional websites. I enjoy working with HTML, CSS, and JavaScript to bring ideas to life and enhance user experiences. In my free time, I like to explore new design trends and work on personal projects that challenge my creativity.
+                 </p>   
+                 <div class="tap-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links"  onclick="opentab('experience')">Experince</p>
+                              <p class="tab-links"  onclick="opentab('education')">Education</p>
+                 </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C++</span><br>C++ is used in developing software for embedded systems, such as microcontrollers, robots, and IoT devices.</li>
+                        <li><span>Java</span><br>Java is used in developing machine learning and AI applications, including natural language processing and computer vision </li>
+                        <li><span>Python </span><br>Python is used in AI and ML applications, including natural language processing, computer vision, and predictive modeling.</li>
+                        <li><span>Web Development </span><br>Combining front-end and back-end development to build complete web applications.</li>
+                        <li><span>MySql </span><br>Organizing data into tables with defined relationships.</li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>17 Nov 2024</span><br>Selection for the "Web Development" virtual intrenship at Encrptix !</li>
+                        <li><span>20 Feb 2025</span><br>Selection for the "Fron-end Development" intren at Cognifyz !</li>
+                        <li><span>25 May 2025</span><br>SelSelection for the "Data Science & Analytics" inern at Zidio Development !</li>
+                        <li><span>13 June 2025</span><br>Selection for the "Software Development" intren at Sainket Systems !</li>
+                        
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Secondary School in Padmalaya English Medium Public School.</li>
+                        <li><span>Feb 2023</span><br>Higher Secondary in MJ College Jalgaon.</li>
+                        <li><span>Pursuing BCA Degree</span><br>At Shram Shadhna Bombay Trust Art's Commerce and Science College,Jalgaon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------services--------->
+
+<div id="services">
+    <div class="container">
+           <h1 class="sub-title">My Services</h1>
+           <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+             <a href="#">Learn more</a>
+            </div>
+                   <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+             <a href="#">Learn more</a>
+            </div>
+                   <div>
+                    <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+             <a href="#">Learn more</a>
+            </div>
+           </div>
+    </div>
+</div>
+
+<!-----------Portfolio-------------->    <!------------Also Projects-------->
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">Projects</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/porfolio.png">  <!----My first work image-->
+                       <div class="layer">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This Website is Built With HTML,CSS,JAVASCRIPT To Showcase My Skills and Work.  </p>
+                            <a href="https://rohit-bari.github.io/Portfolio-Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>
+              
+            </div>
+            <div class="work">
+                <img src="images/ecommerce.jpg">    <!----My second work image-->
+                <div class="layer">
+                        <h3>Ecommerce Website</h3>
+                        <p>E-commerce website built with HTML, CSS, and JavaScript offers a seamless shopping experience with product showcase, cart, and checkout functionality.
+Interactive and responsive design enhances user engagement and conversion.</p>
+                            <a href="https://rohit-bari.github.io/E-commerce-Website/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>    
+            </div>
+            <div class="work">
+                <img src="images/Calculator.jpg">    <!----My third work image-->
+                <div class="layer">
+                        <h3>Calculator Website</h3>
+                        <p>A simple yet powerful calculator app built using HTML, CSS, and JavaScript. This project provides basic arithmetic operations like addition, subtraction, multiplication, and division calculation.  </p>
+                            <a href=" https://rohit-bari.github.io/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>    
+            </div>
+              <div class="work">
+                <img src="images/To Do List.jpg">    <!----My fourth work image-->
+                <div class="layer">
+                        <h3>To do list</h3>
+                        <p>A simple and responsive To-Do List web app built using HTML, CSS, and JavaScript. This project helps users manage their daily tasks by allowing them to add, delete, and mark tasks as completed—all within their browser.  </p>
+                            <a href=" https://rohit-bari.github.io/To-do-list/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>    
+            </div>
+              <div class="work">
+                <img src="images/Tic tac toe.jpg">    <!----My fifth work image-->
+                <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>🔥 Tic Tac Toe: The Ultimate Showdown 🤯 "🎉 Get ready for a battle of wits, a clash of titans, and a game of pure strategy! 💡 Tic Tac Toe is the classic game of X's and O's, where two players engage in a war of minds, each trying to outmaneuver the other 🤔.  </p>
+                            <a href="https://rohit-bari.github.io/Tic-Tac-Toe-/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>    
+            </div>
+              <div class="work">
+                <img src="images/Python tribure page.png">    <!----My sixth work image-->
+                <div class="layer">
+                        <h3>Tribute Page</h3>
+                        <p>Built with HTML and CSS, this tribute page honors the simplicity, elegance, and versatility of the Python programming language. With its clean design and intuitive layout, this page is a testament to the power of Python and its ability to inspire creativity and innovation.  </p>
+                            <a href=" https://rohit-bari.github.io/Tribute-Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     
+                       </div>    
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!----------Contact-------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i>barirohit01@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9975666553</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Rohit-Bari"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/RohitBa12982779?t=HS8oRX3YIB9ZO7pG15P-YA&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/rohit_bari_9237?igsh=amo0YmFnd3Z6d2Fi"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rohit-bari-a3b8b0296"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Rohit Bari.pdf" download class="btn btn2">Download Resume</a>
+            </div> 
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Let's Connect ! | © 2025 Rohit Bari</p>
+    </div>
+</div>
+
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+     for( tabcontent of  tabcontents){
+         tabcontent .classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+
+
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemeu.style.right= "0";
+}
+function closemenu(){
+    sidemeu.style.right= "-200px";
+}
+
+
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwEpEV4rlfkZZUGVRrbYvbNHSZVtLXR5O585p1bRfHHtI-8FjnvCHz9hp4nugLDtgBHKA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
